@@ -1,2 +1,1 @@
-# evolentserver
-evolent employee managemnt application server
+# evolent

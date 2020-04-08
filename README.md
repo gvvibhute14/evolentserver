@@ -3,6 +3,8 @@
 **Clone the application**
      
    git clone https://github.com/gvibhute24/evolent.git
+   
+   cd evolentserver
 
 **Create MySQL database**
      
@@ -16,7 +18,9 @@
 **Run app**
  
   mvn clean package
- 
+  
+  cd target
+  
   java -jar -Dspring.profiles.active=prod evolent.jar
  
   The server will start on port 8080.

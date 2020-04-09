@@ -16,6 +16,8 @@
   change spring.datasource.username and spring.datasource.password properties as per your mysql installation
  
 **Run app**
+
+Please install java 8+ and maven 
  
   mvn clean package
   
@@ -24,3 +26,5 @@
   java -jar -Dspring.profiles.active=prod evolent.jar
  
   The server will start on port 8080.
+ 
+ 

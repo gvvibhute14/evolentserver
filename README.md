@@ -14,6 +14,10 @@
    
   open src/main/resources/application-prod.properties file.
   change spring.datasource.username and spring.datasource.password properties as per your mysql installation
+  
+  change log file location as per your machine
+  
+  logging.file
  
 **Run app**
 

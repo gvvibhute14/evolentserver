@@ -8,10 +8,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
-
-/**
- * Created by rajeevkumarsingh on 19/08/17.
- */
+ 
 @Component
 public class JwtTokenProvider {
 
